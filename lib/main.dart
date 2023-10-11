@@ -1,4 +1,4 @@
-import 'package:aie_teacher/feature/assigned_class/pages/assigned_class.dart';
+import 'package:aie_teacher/feature/grade_homework/pages/classwork.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         textTheme: GoogleFonts.latoTextTheme(),
         useMaterial3: true,
       ),
-      home: const AssignedClass(),
+      home: const Classwork(),
     );
   }
 }
